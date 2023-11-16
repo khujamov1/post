@@ -1,0 +1,31 @@
+.container {
+    max-width: 1300px;
+    margin: 200px auto;
+    padding: 0 10px;
+}
+.main-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.main-item {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.item-id {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+.item-name {
+    text-align: center;
+}
